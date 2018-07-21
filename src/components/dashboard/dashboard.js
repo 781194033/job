@@ -59,7 +59,7 @@ class Dashboard extends React.Component {
 			component: 'User',
 		}]
 		return <div>
- 			<NavBar>{navList.find(cur => cur.path === pathname).title}</NavBar>
+ 			// <NavBar>{navList.find(cur => cur.path === pathname).title}</NavBar>
  			<div>
 				<Switch>
 					<Route path='/boss' component={Boss}></Route>
